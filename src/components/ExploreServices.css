@@ -1,0 +1,42 @@
+@media screen and (min-width:770px) {
+    .exploreServices{
+        margin-top: 0%;
+        background-color: #FBFBFB;
+        padding: 0% 3% 3% 3%;
+    }
+
+    .exploreServicesText{
+        display:block;
+        text-align:center;
+        padding-top:2%;
+        font-size:10px;
+    }
+    .serviceComponent{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        margin:1% 0% 1% 0%;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:319px) {
+    .exploreServices{
+        margin-top: 0%;
+        background-color: #FBFBFB;
+        padding: 0% 3% 3% 3%;
+    }
+
+    .exploreServicesText{
+        display:block;
+        text-align:center;
+        padding-top:2%;
+        font-size:10px;
+    }
+    .serviceComponent{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        margin:1% 0% 1% 0%;
+    }
+}

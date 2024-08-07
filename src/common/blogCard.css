@@ -1,0 +1,23 @@
+@media screen and (min-width:770px) {
+    .blogCard{
+        width: 40%;
+    }
+    .blogImg{
+        height:60%;
+        width:90%;
+    }
+    .blogcardtext{}
+}
+
+@media screen and (max-width:769px) and (min-width:319px) {
+    .blogCard{
+        /* width: 90%; */
+    }
+    .blogImg{
+        height:60%;
+        width:90%;
+    }
+    .blogcardtext{
+        padding: 1% 5% 3% 5%;
+    }
+}
