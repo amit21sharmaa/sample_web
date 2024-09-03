@@ -22,7 +22,7 @@ const Header = () => {
                 >
                   Digital agency
                 </Typography>
-                <Box sx={{ display: { sm: 'block', font:"Plus Jakarta Sans" } }}>
+                <Box sx={{ display: { xs: 'none',md: 'block',lg: 'block', font:"Plus Jakarta Sans" } }}>
                   {navItems.map((item) => (
                     <Button key={item} sx={{ color:'#47536B',mr:2 }}>
                       {item}
